@@ -24,32 +24,30 @@ limitations under the License.
 
 > Compute ranks for values of an array-like object.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/stats-ranks
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-ranks = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-ranks@umd/bundle.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-ranks@umd/bundle.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.ranks;
-})();
-</script>
+var ranks = require( '@stdlib/stats-ranks' );
 ```
 
 #### ranks( arr\[, opts] )
@@ -153,16 +151,11 @@ var out = ranks( data, {
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-int32@umd/bundle.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-round@umd/bundle.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@umd/bundle.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-ranks@umd/bundle.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var Int32Array = require( '@stdlib/array-int32' );
+var round = require( '@stdlib/math-base-special-round' );
+var randu = require( '@stdlib/random-base-randu' );
+var ranks = require( '@stdlib/stats-ranks' );
 
 var data;
 var out;
@@ -185,11 +178,6 @@ for ( i = 0; i < data.length; i++ ) {
 
 out = ranks( data );
 // returns <array>
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -275,6 +263,7 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 [deno-url]: https://github.com/stdlib-js/stats-ranks/tree/deno
 [umd-url]: https://github.com/stdlib-js/stats-ranks/tree/umd
 [esm-url]: https://github.com/stdlib-js/stats-ranks/tree/esm
+[branches-url]: https://github.com/stdlib-js/stats-ranks/blob/main/branches.md
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/stats-ranks/main/LICENSE
 
