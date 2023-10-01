@@ -43,7 +43,7 @@
     "@stdlib/assert-is-collection": "^0.1.0",
     "@stdlib/assert-is-object": "^0.1.0",
     "@stdlib/assert-is-string": "^0.1.0",
-    "@stdlib/string-format": "^0.1.0",
+    "@stdlib/error-tools-fmtprodmsg": "^0.1.0",
     "@stdlib/types": "^0.1.0"
   },
   "devDependencies": {
