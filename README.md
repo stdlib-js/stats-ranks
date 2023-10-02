@@ -35,19 +35,30 @@ limitations under the License.
 
 > Compute ranks for values of an array-like object.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/stats-ranks
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import ranks from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-ranks@esm/index.mjs';
-```
-The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-ranks/tags). For example,
-
-```javascript
-import ranks from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-ranks@v0.1.0-esm/index.mjs';
+var ranks = require( '@stdlib/stats-ranks' );
 ```
 
 #### ranks( arr\[, opts] )
@@ -131,7 +142,7 @@ out = ranks( data, {
 Custom encoding for missing values is supported via the `encoding` option, which allows to supply the function with an `array` of values which should be treated as missing.
 
 ```javascript
-import Int32Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-int32@esm/index.mjs';
+var Int32Array = require( '@stdlib/array-int32' );
 
 var data = new Int32Array( [ 2, 1, -999, 3, 4 ] );
 
@@ -151,16 +162,11 @@ var out = ranks( data, {
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="module">
-
-import Int32Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-int32@esm/index.mjs';
-import round from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-round@esm/index.mjs';
-import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
-import ranks from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-ranks@esm/index.mjs';
+```javascript
+var Int32Array = require( '@stdlib/array-int32' );
+var round = require( '@stdlib/math-base-special-round' );
+var randu = require( '@stdlib/random-base-randu' );
+var ranks = require( '@stdlib/stats-ranks' );
 
 var data;
 var out;
@@ -183,10 +189,6 @@ for ( i = 0; i < data.length; i++ ) {
 
 out = ranks( data );
 // returns <array>
-
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -216,7 +218,7 @@ out = ranks( data );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -246,8 +248,8 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/stats-ranks.svg
 [npm-url]: https://npmjs.org/package/@stdlib/stats-ranks
 
-[test-image]: https://github.com/stdlib-js/stats-ranks/actions/workflows/test.yml/badge.svg?branch=v0.1.0
-[test-url]: https://github.com/stdlib-js/stats-ranks/actions/workflows/test.yml?query=branch:v0.1.0
+[test-image]: https://github.com/stdlib-js/stats-ranks/actions/workflows/test.yml/badge.svg?branch=main
+[test-url]: https://github.com/stdlib-js/stats-ranks/actions/workflows/test.yml?query=branch:main
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/stats-ranks/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/stats-ranks?branch=main
