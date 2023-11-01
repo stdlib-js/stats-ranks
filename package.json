@@ -47,7 +47,7 @@
     "@stdlib/types": "^0.1.0"
   },
   "devDependencies": {
-    "@stdlib/array-int32": "^0.1.0",
+    "@stdlib/array-int32": "^0.1.1",
     "@stdlib/bench": "^0.1.0",
     "@stdlib/math-base-special-round": "^0.1.1",
     "@stdlib/random-base-randu": "^0.1.0",
