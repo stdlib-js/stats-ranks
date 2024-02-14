@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/stats-ranks",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Compute ranks for values of an array-like object.",
   "license": "Apache-2.0",
   "author": {
@@ -37,14 +37,14 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/assert-contains": "^0.1.0",
+    "@stdlib/assert-contains": "^0.2.0",
     "@stdlib/assert-has-own-property": "^0.1.1",
-    "@stdlib/assert-is-array": "^0.1.1",
-    "@stdlib/assert-is-collection": "^0.1.0",
-    "@stdlib/assert-is-object": "^0.1.1",
-    "@stdlib/assert-is-string": "^0.1.1",
-    "@stdlib/string-format": "^0.1.1",
-    "@stdlib/types": "^0.2.0"
+    "@stdlib/assert-is-array": "^0.2.0",
+    "@stdlib/assert-is-collection": "^0.2.0",
+    "@stdlib/assert-is-object": "^0.2.0",
+    "@stdlib/assert-is-string": "^0.2.0",
+    "@stdlib/string-format": "^0.2.0",
+    "@stdlib/types": "^0.3.1"
   },
   "devDependencies": {
     "@stdlib/array-int32": "^0.1.1",
