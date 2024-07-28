@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import ranks from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-ranks@esm/index.mjs';
+import ranks from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-ranks@v0.2.2-esm/index.mjs';
 ```
 
 #### ranks( arr\[, opts] )
@@ -155,7 +155,7 @@ var out = ranks( data, {
 import Int32Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-int32@esm/index.mjs';
 import round from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-round@esm/index.mjs';
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
-import ranks from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-ranks@esm/index.mjs';
+import ranks from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-ranks@v0.2.2-esm/index.mjs';
 
 var data;
 var out;
