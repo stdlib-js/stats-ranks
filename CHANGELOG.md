@@ -2,6 +2,42 @@
 
 > Package changelog.
 
+<section class="release" id="unreleased">
+
+## Unreleased (2025-03-30)
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`87d73e7`](https://github.com/stdlib-js/stdlib/commit/87d73e766f9238784e96d9a7a78cec726b9b718b) - **refactor:** use base array assertion utility _(by Athan Reines)_
+-   [`22e382b`](https://github.com/stdlib-js/stdlib/commit/22e382b0c5829205f4319aa82140efb39e3b1ad8) - **style:** resolve lint errors _(by Athan Reines)_
+-   [`ebb7d9d`](https://github.com/stdlib-js/stdlib/commit/ebb7d9dadfb327239bb796b6177f91b8cc60b7d8) - **style:** resolve lint error _(by Athan Reines)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 1 person contributed to this release. Thank you to this contributor:
+
+-   Athan Reines
+
+</section>
+
+<!-- /.contributors -->
+
+</section>
+
+<!-- /.release -->
+
 <section class="release" id="v0.2.2">
 
 ## 0.2.2 (2024-07-28)
