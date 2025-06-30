@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-03-30)
+## Unreleased (2025-06-30)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`5f73301`](https://github.com/stdlib-js/stdlib/commit/5f73301a8509cc423a06b02140c4e316fd02ff49) - **docs:** minor clean-up _(by Philipp Burckhardt)_
 -   [`87d73e7`](https://github.com/stdlib-js/stdlib/commit/87d73e766f9238784e96d9a7a78cec726b9b718b) - **refactor:** use base array assertion utility _(by Athan Reines)_
 -   [`22e382b`](https://github.com/stdlib-js/stdlib/commit/22e382b0c5829205f4319aa82140efb39e3b1ad8) - **style:** resolve lint errors _(by Athan Reines)_
 -   [`ebb7d9d`](https://github.com/stdlib-js/stdlib/commit/ebb7d9dadfb327239bb796b6177f91b8cc60b7d8) - **style:** resolve lint error _(by Athan Reines)_
@@ -26,9 +27,10 @@
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 2 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
+-   Philipp Burckhardt
 
 </section>
 
