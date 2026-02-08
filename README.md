@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import ranks from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-ranks@deno/mod.js';
+import ranks from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-ranks@v0.2.3-deno/mod.js';
 ```
 
 #### ranks( arr\[, opts] )
@@ -149,7 +149,7 @@ var out = ranks( data, {
 ```javascript
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@deno/mod.js';
 import join from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-join@deno/mod.js';
-import ranks from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-ranks@deno/mod.js';
+import ranks from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-ranks@v0.2.3-deno/mod.js';
 
 // Plain array:
 var data = discreteUniform( 0, 10, {
