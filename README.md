@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import ranks from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-ranks@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-ranks/tags). For example,
+
+```javascript
 import ranks from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-ranks@v0.2.3-esm/index.mjs';
 ```
 
@@ -154,7 +159,7 @@ var out = ranks( data, {
 
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@esm/index.mjs';
 import join from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-join@esm/index.mjs';
-import ranks from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-ranks@v0.2.3-esm/index.mjs';
+import ranks from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-ranks@esm/index.mjs';
 
 // Plain array:
 var data = discreteUniform( 0, 10, {
