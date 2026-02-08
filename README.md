@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import ranks from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-ranks@esm/index.mjs';
+import ranks from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-ranks@v0.2.3-esm/index.mjs';
 ```
 
 #### ranks( arr\[, opts] )
@@ -154,7 +154,7 @@ var out = ranks( data, {
 
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@esm/index.mjs';
 import join from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-join@esm/index.mjs';
-import ranks from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-ranks@esm/index.mjs';
+import ranks from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-ranks@v0.2.3-esm/index.mjs';
 
 // Plain array:
 var data = discreteUniform( 0, 10, {
