@@ -37,10 +37,10 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/array-base-assert-contains": "^0.2.2",
+    "@stdlib/array-base-assert-contains": "^0.2.3",
     "@stdlib/array-base-filled": "^0.2.3",
     "@stdlib/array-base-zeros": "^0.2.3",
-    "@stdlib/assert-contains": "^0.3.0",
+    "@stdlib/assert-contains": "^0.3.1",
     "@stdlib/assert-has-own-property": "^0.2.3",
     "@stdlib/assert-is-array": "^0.2.3",
     "@stdlib/assert-is-collection": "^0.2.3",
@@ -51,9 +51,9 @@
     "@stdlib/error-tools-fmtprodmsg": "^0.2.3"
   },
   "devDependencies": {
-    "@stdlib/array-base-join": "^0.1.1",
-    "@stdlib/random-array-discrete-uniform": "^0.2.1",
-    "@stdlib/random-array-uniform": "^0.2.1",
+    "@stdlib/array-base-join": "^0.1.2",
+    "@stdlib/random-array-discrete-uniform": "^0.2.2",
+    "@stdlib/random-array-uniform": "^0.2.2",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
     "tap-min": "git+https://github.com/Planeshifter/tap-min.git",
